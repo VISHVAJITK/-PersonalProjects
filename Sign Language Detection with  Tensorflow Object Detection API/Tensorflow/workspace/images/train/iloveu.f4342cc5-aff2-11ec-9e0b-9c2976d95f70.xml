@@ -1,0 +1,26 @@
+<annotation>
+	<folder>collectedimages</folder>
+	<filename>iloveu.f4342cc5-aff2-11ec-9e0b-9c2976d95f70.jpg</filename>
+	<path>E:\Projects\RealTimeObjectDetection\Tensorflow\workspace\images\collectedimages\iloveu.f4342cc5-aff2-11ec-9e0b-9c2976d95f70.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>I Love You</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>460</xmin>
+			<ymin>200</ymin>
+			<xmax>638</xmax>
+			<ymax>392</ymax>
+		</bndbox>
+	</object>
+</annotation>
