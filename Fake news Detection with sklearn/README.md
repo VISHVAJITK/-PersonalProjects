@@ -32,6 +32,6 @@ The dataset we’ll use for this python project- we’ll call it news.csv. This 
 ## Results
 To detect fake news with Python, With the given political dataset, implemented a TfidfVectorizer, initialized a PassiveAggressiveClassifier, and fit our model. The model ended up obtaining an accuracy of 93.53% in magnitude with following confusion matrix.
 
-![plot]()
+![plot](https://github.com/VISHVAJITK/-PersonalProjects/blob/main/Fake%20news%20Detection%20with%20sklearn/plots/confusion_matrix.png?raw=true)
 
 
