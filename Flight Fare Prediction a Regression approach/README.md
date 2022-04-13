@@ -8,9 +8,9 @@
   * [Overview](#overview)
   * [Motivation](#motivation)
   * [Installation](#installation)
-  * [Deployement on Heroku](#deployement-on-heroku)
-  * [Directory Tree](#directory-tree)
-  * [Bug / Feature Request](#bug---feature-request)
+  * [Deployement on Heroku and Netlify](#deployement-on-heroku-and-netlify)
+
+  * [Bug / Feature Request](#bug-/-feature-request)
   * [Future scope of project](#future-scope)
 
 ## Demo
@@ -38,7 +38,7 @@ The Code is written in Python 3.9.4. If you don't have Python installed you can 
     
 ## Deployement on Heroku and Netlify
 Login or signup in order to create virtual app. You can either connect your github profile or download ctl to manually deploy this project.
-the fastapi backend is deployed on heroku with heroku cli (see the documentation for process) and the React frontend is deployed on Netlify.
+the fastapi backend is deployed on heroku with [heroku](https://id.heroku.com/login) cli (see the documentation for process) and the React frontend is deployed on [Netlify](https://www.netlify.com/).
 
 ## Technologies Used
 
