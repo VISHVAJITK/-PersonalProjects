@@ -8,6 +8,8 @@ Here, we are using the “haarcascade_frontalface_default.xml” as our model fr
 ## Task 
 A classifier is buit to recognise the faces of celebraties using haar_face.xml and cascade_classiffier.
 
+## Dataset
+Download dataset from [here](https://www.kaggle.com/dansbecker/5-celebrity-faces-dataset).
 ## Install opencv
 ```bash
 pip install opencv-python
