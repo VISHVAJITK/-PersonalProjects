@@ -54,17 +54,22 @@ cap = cv.VideoCapture(r'image\test2.mp4')
 # Below VideoWriter object will create
 # a frame of above defined The output 
 # is stored in 'filename.avi' file.
-result = cv.VideoWriter(r'E:\Projects\Road Lane Detection with Opencv\image\detect.avi', 
-                         cv.VideoWriter_fourcc(*'MJPG'),
-                         10,(256,256))
+result = cv.VideoWriter('detect.avi', 
+                         cv.VideoWriter_fourcc(*'mp4v'),
+                         20,(640,480))
+# height, width, channels = frame.shape
+# fourcc = cv2.VideoWriter_fourcc(*'mp4v')
+# out = cv2.VideoWriter(filename, fourcc, 20, (width, height))
 
 while True:
     _ , frame = cap.read()
     gradient = canny(frame)
     masked_image = area_of_interest(gradient)
     final_image = display_lines(masked_image,frame)
-    result.write(final_image)
+    
     cv.imshow('Result',final_image)
+    result.write(final_image)
+
 
     if cv.waitKey(1) == ord('q'):
         break
