@@ -42,7 +42,7 @@ satisfaction
 7. Explore the impact of extracted topics on consumers’ evaluations
 
 ## Conceptual Model and Hypothesis
-![hypo]()
+![hypo](https://github.com/VISHVAJITK/mldl_Notes/blob/main/srceen%20shot/hypo.png?raw=true)
 
 ## RESEARCH METHODOLOGY
 ### Research Study 1
@@ -85,7 +85,7 @@ check the [Data anlysis](https://github.com/VISHVAJITK/-PersonalProjects/tree/ma
 ### For Research Study 1
 #### Demographic data
 
-![dempgraphic]()
+![dempgraphic](https://github.com/VISHVAJITK/mldl_Notes/blob/main/srceen%20shot/demographic.png?raw=true)
 
 #### Test carried out
 - Reliability Test (Cronbach's alpha)
@@ -95,7 +95,7 @@ check the [Data anlysis](https://github.com/VISHVAJITK/-PersonalProjects/tree/ma
 
 ####  Hypothesis Testing
 
-![hypothsis]()
+![hypothsis](https://github.com/VISHVAJITK/mldl_Notes/blob/main/srceen%20shot/hypothsis.png?raw=true)
 
 ### For Research Study 2
 ####  Word Cloud Analysis
@@ -107,14 +107,16 @@ analysis, the function returns scores for each of the emotions, angry, sad, happ
 fear. It is observed that for certain entries, all the fields are observed to be 0, so it is labeled as
 neutral. check the [notebook](https://github.com/VISHVAJITK/-PersonalProjects/blob/main/Impact%20of%20E-Wom%20on%20Purchase%20Intention%20of%20Kurtis%20in%20Indian%20E-Commerce%20Context/Data_analysis/word_cloud.ipynb) for details.
 
-![emotion1]()
-![emotion2]()
+![emotion1](https://github.com/VISHVAJITK/-PersonalProjects/blob/main/Impact%20of%20E-Wom%20on%20Purchase%20Intention%20of%20Kurtis%20in%20Indian%20E-Commerce%20Context/Images/Emotion%20for%20recommendation.png?raw=true)
+![emotion2](https://github.com/VISHVAJITK/-PersonalProjects/blob/main/Impact%20of%20E-Wom%20on%20Purchase%20Intention%20of%20Kurtis%20in%20Indian%20E-Commerce%20Context/Images/emotion%20for%20non%20recomedation.png?raw=true)
 
 ## Text Classification Model for Recommendation
 Take the two classes Recommender (Class 1) and Not-Recommended (Class 2) for classification. Accuracy, F1-score,
 sensitivity, and specificity are the performance metrics used in this study. All of this is used to
 determine the performance of our model.
 check the [notebook](https://github.com/VISHVAJITK/-PersonalProjects/tree/main/Impact%20of%20E-Wom%20on%20Purchase%20Intention%20of%20Kurtis%20in%20Indian%20E-Commerce%20Context/classification) for details.
+
+The BERT model for 100 epochs is built for recommendation with 93.42 % accuracy.
 
 ## 7.1 Conclusion
 The primary goal of the study was to determine the factors that affects e-WOM engagement
