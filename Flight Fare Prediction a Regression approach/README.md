@@ -24,7 +24,7 @@ Link: https://reliable-arithmetic-263295.netlify.app/
 
 
 ## Overview
-This is a Flask web app which predicts fare of Flight ticket.
+This is a React web app which predicts fare of Flight ticket.
 
 ## Motivation
 What to do when you are at home due to this pandemic situation? I started to learn Machine Learning model to get most out of it. I came to know mathematics behind all supervised models. Finally it is important to work on application (real world application) to actually make a difference.
