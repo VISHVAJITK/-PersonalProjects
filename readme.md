@@ -48,7 +48,7 @@ This repository holds all of my personal projects that I've done over the years.
 4. Opencv Projects
 
    - [Face Detection & Recognisation with opencv](https://github.com/VISHVAJITK/-PersonalProjects/tree/main/Face%20Detection%20%26%20Recognisation%20with%20opencv)
-   - [Road Lane Detection with Opencv][https://github.com/VISHVAJITK/-PersonalProjects/tree/main/Road%20Lane%20Detection%20with%20Opencv](https://github.com/VISHVAJITK/-PersonalProjects/tree/main/Road%20Lane%20Detection%20with%20Opencv)
+   - [Road Lane Detection with Opencv](https://github.com/VISHVAJITK/-PersonalProjects/tree/main/Road%20Lane%20Detection%20with%20Opencv)
 
 
 
