@@ -5,7 +5,7 @@
 This repository holds all of my personal projects that I've done over the years. Currently they're binned in different categories
 
 1. Post Graduation (M.Tech.) Project
-   - Adequacy of Utaut Model In Predicting Students’ Adoption of E-Learning In A Higher Education Institute
+   - [Adequacy of Utaut Model In Predicting Students’ Adoption of E-Learning In A Higher Education Institute](https://github.com/VISHVAJITK/-PersonalProjects/blob/main/Adequacy%20Of%20Utaut%20Model%20In%20Predicting%20Students%E2%80%99%20Adoption%20Of%20E-Learning%20In%20A%20Higher%20Education%20Institute.pdf)
    - [Impact of E-Wom on Purchase Intention of Kurtis in Indian E-Commerce Context - A Mixed approach](https://github.com/VISHVAJITK/-PersonalProjects/tree/main/Impact%20of%20E-Wom%20on%20Purchase%20Intention%20of%20Kurtis%20in%20Indian%20E-Commerce%20Context)
 
 
