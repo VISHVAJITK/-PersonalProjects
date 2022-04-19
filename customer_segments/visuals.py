@@ -67,17 +67,17 @@ def cluster_results(reduced_data, preds, centers, pca_samples):
 	# Color the points based on assigned cluster
 	for i, cluster in plot_data.groupby('Cluster'):   
 	    cluster.plot(ax = ax, kind = 'scatter', x = 'Dimension 1', y = 'Dimension 2', \
-	                 color = cmap((i)*1.0/(len(centers)-1)), label = 'Cluster %i'%(i), s=30);
+	                 color = cmap((i)*1.0/(len(centers)-1)), label = 'Cluster %i'%(i), s=30)
 
 	# Plot centers with indicators
 	for i, c in enumerate(centers):
 	    ax.scatter(x = c[0], y = c[1], color = 'white', edgecolors = 'black', \
-	               alpha = 1, linewidth = 2, marker = 'o', s=200);
-	    ax.scatter(x = c[0], y = c[1], marker='$%d$'%(i), alpha = 1, s=100);
+	               alpha = 1, linewidth = 2, marker = 'o', s=200)
+	    ax.scatter(x = c[0], y = c[1], marker='$%d$'%(i), alpha = 1, s=100)
 
 	# Plot transformed sample points 
 	ax.scatter(x = pca_samples[:,0], y = pca_samples[:,1], \
-	           s = 150, linewidth = 4, color = 'black', marker = 'x');
+	           s = 150, linewidth = 4, color = 'black', marker = 'x')
 
 	# Set plot title
 	ax.set_title("Cluster Learning on PCA-Reduced Data - Centroids Marked by Number\nTransformed Sample Data Marked by Black Cross");
